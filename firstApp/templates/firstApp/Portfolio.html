@@ -1,0 +1,46 @@
+{% extends "firstApp/base.html" %}
+{% load static %}
+{% block content %}
+<section class="section" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+                <p>Some of my recent projects and case studies</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/cloud-migration.jpg" alt="Cloud Migration" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Enterprise Cloud Migration</h3>
+                        <div>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/security-audit.jpg" alt="Security Audit" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Financial Security Audit</h3>
+                        <div>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/it-infrastructure.jpg" alt="IT Infrastructure" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Healthcare IT Infrastructure</h3>
+                        <div>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+

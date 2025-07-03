@@ -1,6 +1,26 @@
 {% extends "firstApp/base.html" %}
 {% load static %}
 {% block content %}
-<h1>Hello world<h1>
+<body>
+    <!-- Header -->
+   {% include "firstApp/Header.html" %}
+    <!-- Hero Section -->
+     {% include "firstApp/hero.html" %}
+
+    <!-- Services Section -->
+    {% include "firstApp/Services.html" %}
+
+    <!-- About Section -->
+    {% include "firstApp/About.html" %}
+    <!-- Portfolio Section -->
+    {% include "firstApp/Portfolio.html" %}
+    <!-- Testimonials Section -->
+    {% include "firstApp/Testimonials.html" %}
+    <!-- Blog Section -->
+    {% include "firstApp/Blog.html" %}
+    <!-- Contact Section -->
+    {% include "firstApp/Contact.html" %}
+    <!-- Footer -->
+    {% include "firstApp/Footer.html" %}
 
 {% endblock content %}

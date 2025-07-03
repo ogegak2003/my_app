@@ -1,0 +1,53 @@
+{% extends "firstApp/base.html" %}
+{% load static %}
+{% block content %}
+
+<section class="section about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know the expert behind the solutions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/kevin-obaga.jpg" alt="Kevin Obaga">
+                </div>
+                <div class="about-text">
+                    <h2>Professional IT Expert with 8+ Years Experience</h2>
+                    <p>I'm Kevin Obaga, a passionate technology professional dedicated to helping businesses leverage cutting-edge solutions to achieve their goals.</p>
+                    <p>With over a decade of experience in the IT industry, I've helped numerous organizations transform their technology infrastructure, enhance security, and optimize operations.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Cloud Computing</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Software Dev</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Network Infrastructure</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

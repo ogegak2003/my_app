@@ -1,0 +1,43 @@
+{% extends "firstApp/base.html" %}
+{% load static %}
+{% block content %}
+<section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest Insights</h2>
+                <p>Articles and thoughts on technology trends</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="images/cloud-trends.jpg" alt="Cloud Trends" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-date">June 15, 2023</div>
+                        <h3>Cloud Computing Trends in 2023</h3>
+                        <p>Exploring the latest developments in cloud technology and how businesses can leverage them.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="images/cybersecurity.jpg" alt="Security" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-date">May 28, 2023</div>
+                        <h3>Essential Cybersecurity Practices</h3>
+                        <p>Simple yet effective security measures every business should implement immediately.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="images/ai-business.jpg" alt="AI" class="blog-img">
+                    <div class="blog-content">
+                        <div class="blog-date">April 10, 2023</div>
+                        <h3>AI in Business Operations</h3>
+                        <p>How artificial intelligence is transforming enterprise workflows and decision-making.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+

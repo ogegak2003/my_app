@@ -1,0 +1,36 @@
+
+{% extends "firstApp/base.html" %}
+{% load static %}
+{% block content %}
+<section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+                <p>I offer comprehensive IT solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Architecture</h3>
+                    <p>Design and implement scalable cloud solutions using AWS, Azure, and Google Cloud platforms.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your business from threats with comprehensive security assessments and solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>IT Consulting</h3>
+                    <p>Strategic technology planning and implementation to drive your business forward.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}
